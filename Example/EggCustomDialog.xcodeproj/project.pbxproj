@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		04B67151DCAC1BA7F2F540B8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		04B67151DCAC1BA7F2F540B8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		113431917491289AB85532E5 /* Pods_EggCustomDialog_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EggCustomDialog_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BA923828C50DB701802C263 /* Pods-EggCustomDialog_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EggCustomDialog_Example.release.xcconfig"; path = "Target Support Files/Pods-EggCustomDialog_Example/Pods-EggCustomDialog_Example.release.xcconfig"; sourceTree = "<group>"; };
 		5E5D86E1F54B9C8E96ACE2F8 /* Pods-EggCustomDialog_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EggCustomDialog_Tests.release.xcconfig"; path = "Target Support Files/Pods-EggCustomDialog_Tests/Pods-EggCustomDialog_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -42,9 +42,9 @@
 		607FACE51AFB9204008FA782 /* EggCustomDialog_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EggCustomDialog_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		82CBA481A3CEF9393CB9C686 /* EggCustomDialog.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = EggCustomDialog.podspec; path = ../EggCustomDialog.podspec; sourceTree = "<group>"; };
+		82CBA481A3CEF9393CB9C686 /* EggCustomDialog.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = EggCustomDialog.podspec; path = ../EggCustomDialog.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		862328EF232065FE1215AE7B /* Pods-EggCustomDialog_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EggCustomDialog_Tests.debug.xcconfig"; path = "Target Support Files/Pods-EggCustomDialog_Tests/Pods-EggCustomDialog_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		A5F17FF2A0314722DF285E38 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		A5F17FF2A0314722DF285E38 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		A9BD581B7F0060DC24AB7906 /* Pods-EggCustomDialog_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EggCustomDialog_Example.debug.xcconfig"; path = "Target Support Files/Pods-EggCustomDialog_Example/Pods-EggCustomDialog_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		FB88E1218EA79A097302BE35 /* Pods_EggCustomDialog_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EggCustomDialog_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -156,7 +156,6 @@
 				862328EF232065FE1215AE7B /* Pods-EggCustomDialog_Tests.debug.xcconfig */,
 				5E5D86E1F54B9C8E96ACE2F8 /* Pods-EggCustomDialog_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

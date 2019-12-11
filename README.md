@@ -1,8 +1,6 @@
 # EggCustomDialog
 
-[![CI Status](https://img.shields.io/travis/Peerapat.Pro/EggCustomDialog.svg?style=flat)](https://travis-ci.org/Peerapat.Pro/EggCustomDialog)
 [![Version](https://img.shields.io/cocoapods/v/EggCustomDialog.svg?style=flat)](https://cocoapods.org/pods/EggCustomDialog)
-[![License](https://img.shields.io/cocoapods/l/EggCustomDialog.svg?style=flat)](https://cocoapods.org/pods/EggCustomDialog)
 [![Platform](https://img.shields.io/cocoapods/p/EggCustomDialog.svg?style=flat)](https://cocoapods.org/pods/EggCustomDialog)
 
 ## Example
