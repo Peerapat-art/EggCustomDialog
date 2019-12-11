@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'EggCustomDialog_Example' do
+  pod 'EggCustomDialog', :path => '../'
+
+  target 'EggCustomDialog_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
