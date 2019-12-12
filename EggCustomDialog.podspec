@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
     s.name             = 'EggCustomDialog'
-    s.version          = '0.1.0'
+    s.version          = '0.1.1'
     s.swift_version    = '5.0'
     s.summary          = 'EggDital Custom Dialog'
     s.description      = "Create Custom Dialog for using in project"
@@ -20,15 +20,15 @@ Pod::Spec.new do |s|
     s.source           = { :git => 'https://github.com/Peerapat-art/EggCustomDialog.git', :tag => s.version.to_s }
     # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
     
-    s.ios.deployment_target = '8.0'
+    s.ios.deployment_target = '10.0'
     
     s.source_files = 'EggCustomDialog/Classes/**/*'
-    
+    s.frameworks = 'UIKit'
+
     # s.resource_bundles = {
     #   'EggCustomDialog' => ['EggCustomDialog/Assets/*.png']
     # }
     
     # s.public_header_files = 'Pod/Classes/**/*.h'
-    # s.frameworks = 'UIKit', 'MapKit'
-    # s.dependency 'AFNetworking', '~> 2.3'
+    s.dependency 'EggDeviceExt'
 end
