@@ -1,0 +1,23 @@
+PODS:
+  - EggCustomDialog (0.1.1):
+    - EggDeviceExt
+  - EggDeviceExt (0.1.1)
+
+DEPENDENCIES:
+  - EggCustomDialog (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - EggDeviceExt
+
+EXTERNAL SOURCES:
+  EggCustomDialog:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  EggCustomDialog: 0ede260634c6abe76fbcfbe2685c02d46df7efc3
+  EggDeviceExt: 158cbea9d3d9e04535bd150062aa3a6d7085bbde
+
+PODFILE CHECKSUM: 2258f6307f26f1dcefa5c9c7689bf8a000fb93d7
+
+COCOAPODS: 1.8.4

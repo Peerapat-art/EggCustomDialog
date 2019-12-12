@@ -1,0 +1,6 @@
+framework module EggCustomDialog {
+  umbrella header "EggCustomDialog-umbrella.h"
+
+  export *
+  module * { export * }
+}

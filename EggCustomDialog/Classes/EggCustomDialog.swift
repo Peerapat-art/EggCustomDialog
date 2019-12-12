@@ -20,9 +20,27 @@ open class EggCustomDialog {
         case titleMessage
     }
     
-    static var eggCustomDialogViewController = EggCustomDialogViewController()
+    fileprivate var eggCustomDialogViewController = EggCustomDialogViewController()
     
-    public func showCustomDialog() {
+    public func showCustomDialog(styleDialog: StyleDialog, styleButton: StyleButton, styleLabel: StyleLabel,
+                                 sTitle: String = "", fontTitle: UIFont = UIFont.boldSystemFont(ofSize: 18), lineTitle: Int = 2, colorTitle: UIColor = .black  ) {
+        
+        // custom style
+        self.eggCustomDialogViewController.mViewImage.isHidden = styleDialog == .noImage
+        self.eggCustomDialogViewController.mButtonLeft.isHidden = styleButton == .single
+        
+        switch styleLabel {
+        case .title:
+            self.eggCustomDialogViewController.mLabelTitle.isHidden = false
+            self.eggCustomDialogViewController.mLabelMessage.isHidden = true
+        case .message:
+            self.eggCustomDialogViewController.mLabelTitle.isHidden = true
+            self.eggCustomDialogViewController.mLabelMessage.isHidden = false
+        case .titleMessage:
+            self.eggCustomDialogViewController.mLabelTitle.isHidden = false
+            self.eggCustomDialogViewController.mLabelMessage.isHidden = false
+        }
+        
         
     }
 }

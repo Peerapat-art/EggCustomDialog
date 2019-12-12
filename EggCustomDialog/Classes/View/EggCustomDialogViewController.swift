@@ -89,6 +89,14 @@ class EggCustomDialogViewController: UIViewController {
         }
     }
     
+    public var mViewImage: UIImageView! {
+        get {
+            return self.viewImage
+        } set {
+            self.viewImage = newValue
+        }
+    }
+    
     public var mLabelTitle: UILabel! {
         get {
             return self.labelTitle
@@ -98,20 +106,20 @@ class EggCustomDialogViewController: UIViewController {
     }
     
     public var mLabelMessage: UILabel! {
-           get {
-               return self.labelMessage
-           } set {
-               self.labelMessage = newValue
-           }
-       }
+        get {
+            return self.labelMessage
+        } set {
+            self.labelMessage = newValue
+        }
+    }
     
     public var mButtonLeft: UIButton! {
-           get {
-               return self.buttonLeft
-           } set {
-               self.buttonLeft = newValue
-           }
-       }
+        get {
+            return self.buttonLeft
+        } set {
+            self.buttonLeft = newValue
+        }
+    }
     
     public var mButtonRight: UIButton! {
         get {
@@ -152,5 +160,5 @@ class EggCustomDialogViewController: UIViewController {
     // MARK: - Private Methods
     
     // MARK: - Public Methods
-   
+    
 }

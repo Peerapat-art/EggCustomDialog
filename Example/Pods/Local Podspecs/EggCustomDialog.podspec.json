@@ -1,0 +1,30 @@
+{
+  "name": "EggCustomDialog",
+  "version": "0.1.1",
+  "swift_versions": "5.0",
+  "summary": "EggDital Custom Dialog",
+  "description": "Create Custom Dialog for using in project",
+  "homepage": "https://github.com/Peerapat-art/EggCustomDialog",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Peerapat.Pro": "peerapat.pro@ascendcorp.com"
+  },
+  "source": {
+    "git": "https://github.com/Peerapat-art/EggCustomDialog.git",
+    "tag": "0.1.1"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "EggCustomDialog/Classes/**/*",
+  "frameworks": "UIKit",
+  "dependencies": {
+    "EggDeviceExt": [
+
+    ]
+  },
+  "swift_version": "5.0"
+}
