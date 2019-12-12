@@ -314,10 +314,12 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-EggCustomDialog_Example/Pods-EggCustomDialog_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/EggCustomDialog/EggCustomDialog.framework",
+				"${BUILT_PRODUCTS_DIR}/EggDeviceExt/EggDeviceExt.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EggCustomDialog.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EggDeviceExt.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
