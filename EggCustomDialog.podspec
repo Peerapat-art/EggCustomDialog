@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
     s.name             = 'EggCustomDialog'
-    s.version          = '0.1.1'
+    s.version          = '0.1.2'
     s.swift_version    = '5.0'
     s.summary          = 'EggDital Custom Dialog'
     s.description      = "Create Custom Dialog for using in project"
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
     s.author           = { 'Peerapat.Pro' => 'peerapat.pro@ascendcorp.com' }
     s.source           = { :git => 'https://github.com/Peerapat-art/EggCustomDialog.git', :tag => s.version.to_s }
     
-    s.ios.deployment_target = '9.0'
+    s.ios.deployment_target = '10.0'
     
     s.source_files = 'EggCustomDialog/Classes/**/*'
     s.frameworks  = "Foundation", "UIKit"

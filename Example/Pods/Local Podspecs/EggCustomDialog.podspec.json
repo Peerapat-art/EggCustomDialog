@@ -1,6 +1,6 @@
 {
   "name": "EggCustomDialog",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "swift_versions": "5.0",
   "summary": "EggDital Custom Dialog",
   "description": "Create Custom Dialog for using in project",
@@ -14,10 +14,10 @@
   },
   "source": {
     "git": "https://github.com/Peerapat-art/EggCustomDialog.git",
-    "tag": "0.1.1"
+    "tag": "0.1.2"
   },
   "platforms": {
-    "ios": "11.0"
+    "ios": "10.0"
   },
   "source_files": "EggCustomDialog/Classes/**/*",
   "frameworks": [

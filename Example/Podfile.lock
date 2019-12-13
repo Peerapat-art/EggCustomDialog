@@ -1,5 +1,5 @@
 PODS:
-  - EggCustomDialog (0.1.1):
+  - EggCustomDialog (0.1.2):
     - EggDeviceExt
   - EggDeviceExt (0.1.5)
 
@@ -16,7 +16,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  EggCustomDialog: 40ce22fe8c9b6ee29a249127012bf8808daf868a
+  EggCustomDialog: cc54cc29d7e2a2fef48c357f1d0b68a9c4478206
   EggDeviceExt: 1053b39121d3de2d65f83b03ed72e009fb9e1ebe
 
 PODFILE CHECKSUM: c6a01dba94a4137be0e9e2f3f68562c5c540efd8
