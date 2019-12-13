@@ -1,10 +1,11 @@
 PODS:
   - EggCustomDialog (0.1.1):
     - EggDeviceExt
-  - EggDeviceExt (0.1.1)
+  - EggDeviceExt (0.1.5)
 
 DEPENDENCIES:
   - EggCustomDialog (from `../`)
+  - EggDeviceExt
 
 SPEC REPOS:
   trunk:
@@ -15,9 +16,9 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  EggCustomDialog: 0ede260634c6abe76fbcfbe2685c02d46df7efc3
-  EggDeviceExt: 158cbea9d3d9e04535bd150062aa3a6d7085bbde
+  EggCustomDialog: 40ce22fe8c9b6ee29a249127012bf8808daf868a
+  EggDeviceExt: 1053b39121d3de2d65f83b03ed72e009fb9e1ebe
 
-PODFILE CHECKSUM: 2258f6307f26f1dcefa5c9c7689bf8a000fb93d7
+PODFILE CHECKSUM: c6a01dba94a4137be0e9e2f3f68562c5c540efd8
 
 COCOAPODS: 1.8.4

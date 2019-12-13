@@ -17,10 +17,13 @@
     "tag": "0.1.1"
   },
   "platforms": {
-    "ios": "10.0"
+    "ios": "11.0"
   },
   "source_files": "EggCustomDialog/Classes/**/*",
-  "frameworks": "UIKit",
+  "frameworks": [
+    "Foundation",
+    "UIKit"
+  ],
   "dependencies": {
     "EggDeviceExt": [
 
