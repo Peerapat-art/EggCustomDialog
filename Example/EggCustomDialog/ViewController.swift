@@ -17,17 +17,23 @@ class ViewController: UIViewController {
     }
     
     override func viewDidAppear(_ animated: Bool) {
-        
+        super.viewDidAppear(true)
         let bundle = Bundle(for: EggCustomDialogViewController.self)
-        let newViewController = EggCustomDialogViewController(nibName:"EggCustomDialogViewController" , bundle: bundle)
-        newViewController.modalPresentationStyle = UIModalPresentationStyle.overCurrentContext
-        newViewController.content = EggCustomDialogViewController.CustomDialogTheme(sTitle: "test", sMessage: "jaa")
-        self.present(newViewController, animated: true, completion: nil)
-        
+        let eggCustomVC: EggCustomDialogViewController = EggCustomDialogViewController(nibName:"EggCustomDialogViewController" , bundle: bundle)
+        eggCustomVC.content = EggCustomDialogViewController.CustomDialogTheme(sTitle: "Title", sMessage: "Message test for show custom egg dialog dialog", img: UIImage(named: "3")!, styleDialog: .withImageSmall)
+        eggCustomVC.delegate = self
+        eggCustomVC.showDialog()
+    }
+}
+
+extension ViewController: EggCustomDialogDelegate {
+    func didTapLeftButton() {
+        // delegate tap left button
+          print("Did Tap Left Button")
     }
     
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    func didTapRightButton() {
+         // delegate tap right button
+         print("Did Tap Right Button")
     }
 }
