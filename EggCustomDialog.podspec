@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
     s.name             = 'EggCustomDialog'
-    s.version          = '0.1.2'
+    s.version          = '0.1.3'
     s.swift_version    = '5.0'
     s.summary          = 'EggDital Custom Dialog'
     s.description      = "Create Custom Dialog for using in project"

@@ -7,22 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1C3505E119A816C6DF71F70E19614FD4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCB2A99E549CFCCAC4AAB6AE39209CA2 /* Foundation.framework */; };
+		14172ED7C7E0A901B98D14018479FBD3 /* EggDeviceExt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 296864CE5E101A93B276FC53D5887E2C /* EggDeviceExt.framework */; };
 		1D10D94791313F97064848EFB3253280 /* Pods-EggCustomDialog_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 43FCB38140A6E47479DD4A57ED543580 /* Pods-EggCustomDialog_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1E2987FE4FD3DD33488ADDDEA3585496 /* Pods-EggCustomDialog_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DD1988C059D912E42578F78F6D561BE /* Pods-EggCustomDialog_Example-dummy.m */; };
-		2ACDDEE3A8587218318CEDC314D71FB9 /* EggCustomDialogViewController.xib in Sources */ = {isa = PBXBuildFile; fileRef = 06E5285C1CB6C381ED5685058A043812 /* EggCustomDialogViewController.xib */; };
-		33A2266DC635D832BA266816454799C2 /* EggDeviceExt-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A0512F945E17027BF2852F8586024CC /* EggDeviceExt-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		45644EA6F22CAAAADA53DFFD7ACE500E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAC1A9D40EE84035DB07FEA9401A7A93 /* UIKit.framework */; };
+		254FCA5EA8B96E1FB12523E324B4D8D4 /* UIDeviceExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0883B0DF27CC2D529633116E289F8BB1 /* UIDeviceExt.swift */; };
 		46A1C353AD6C6A6F3DBBEE2CD05962BA /* Pods-EggCustomDialog_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 92FCA4821EDA0EFF510995414D44DA2A /* Pods-EggCustomDialog_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5A6804F6D6D20EA64C827958B4F47AE1 /* EggCustomDialog-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 18355F10130B042B7E6ADA0F850C4CDB /* EggCustomDialog-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4DD9CC4C95EDA0F76293D05283A1577B /* EggCustomDialogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2AF0CED21A4FB606FEE5185AFF6B7A /* EggCustomDialogViewController.swift */; };
+		6441350EAF5A36DBE1AB1FB9931F0865 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCB2A99E549CFCCAC4AAB6AE39209CA2 /* Foundation.framework */; };
 		6B738C048E2C86321106B1423B92C34F /* Pods-EggCustomDialog_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A98C22C639B7DF8B607B283C6096A17B /* Pods-EggCustomDialog_Tests-dummy.m */; };
-		6CD74B6141149D2DD931F645BD84C58D /* EggDeviceExt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 296864CE5E101A93B276FC53D5887E2C /* EggDeviceExt.framework */; };
-		84E695F5B0FD2BF4C33C1A7453C25EDE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCB2A99E549CFCCAC4AAB6AE39209CA2 /* Foundation.framework */; };
+		783C6491F16504C511A65427907D0B8E /* EggCustomDialog-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CD95ACB2766C09974BFAD1922D6842F /* EggCustomDialog-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B0146C3007CAF84474357A7F38D7DC5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCB2A99E549CFCCAC4AAB6AE39209CA2 /* Foundation.framework */; };
+		9A941E62F08B5070C06C588AB41B0173 /* EggCustomDialog-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 54D79BCF8E85478ACDA915803C2E8CBF /* EggCustomDialog-dummy.m */; };
 		9D388455867621ED9F44B7C62F4CA4EC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCB2A99E549CFCCAC4AAB6AE39209CA2 /* Foundation.framework */; };
-		A403B20756386D134F06A01D3688368A /* EggDeviceExt-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 11C06836F6E46EE7EC464F452BFE7442 /* EggDeviceExt-dummy.m */; };
-		AAB918FB0EA51CDFF476E9D23DAC8938 /* EggCustomDialog-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 51BD2D1182173D485FAB5A2DA4DDA12B /* EggCustomDialog-dummy.m */; };
-		B5C999F2BCF84170212C286B7961BEB4 /* UIDeviceExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0883B0DF27CC2D529633116E289F8BB1 /* UIDeviceExt.swift */; };
-		ECC687AD424DE511D87D314097A30313 /* EggCustomDialogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD51229EB3C866F2A551A833E11B364D /* EggCustomDialogViewController.swift */; };
+		A66482091025E17B92FD3B17B2CF5C62 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAC1A9D40EE84035DB07FEA9401A7A93 /* UIKit.framework */; };
+		A6BD49D3215F6DF0C2118D53E2EE343D /* EggDeviceExt-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A0512F945E17027BF2852F8586024CC /* EggDeviceExt-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E1C7515A3F8D520A2F9259988B19A5AC /* EggDeviceExt-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 11C06836F6E46EE7EC464F452BFE7442 /* EggDeviceExt-dummy.m */; };
+		EA19A3DEA5FD0CE025C0D24A939E1F46 /* EggCustomDialogViewController.xib in Sources */ = {isa = PBXBuildFile; fileRef = 9C98C5B1F78FDAF7481E37768468CE48 /* EggCustomDialogViewController.xib */; };
 		FA58C957673BA8CD55EB7009C2EEFB95 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCB2A99E549CFCCAC4AAB6AE39209CA2 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -41,7 +41,7 @@
 			remoteGlobalIDString = E3E77F5F85BC77DFFEA72396454E7075;
 			remoteInfo = EggCustomDialog;
 		};
-		E43B50EFDB5313AA694C652D8852E482 /* PBXContainerItemProxy */ = {
+		CCB533E3D1547DE3123EBC65A2AA81E2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -60,14 +60,9 @@
 /* Begin PBXFileReference section */
 		00C13E3192D22A1F90D70FCE758889BE /* Pods-EggCustomDialog_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EggCustomDialog_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		0368046FE94BB60B21B84ED611031D3F /* Pods-EggCustomDialog_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EggCustomDialog_Example-frameworks.sh"; sourceTree = "<group>"; };
-		04CF055D98F7258027ABF32E7398465F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		060BD9851528417F946B49FDD9C55C95 /* EggCustomDialog.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EggCustomDialog.xcconfig; sourceTree = "<group>"; };
-		066EE511D7B9A83A2FD1E1624FB7B9BD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		06E5285C1CB6C381ED5685058A043812 /* EggCustomDialogViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = EggCustomDialogViewController.xib; path = EggCustomDialog/Classes/EggCustomDialogViewController.xib; sourceTree = "<group>"; };
 		0883B0DF27CC2D529633116E289F8BB1 /* UIDeviceExt.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIDeviceExt.swift; path = EggDeviceExt/Classes/UIDeviceExt.swift; sourceTree = "<group>"; };
 		0F07CF61D5B54683A13B63BDA9CE4D68 /* Pods-EggCustomDialog_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EggCustomDialog_Tests.modulemap"; sourceTree = "<group>"; };
 		11C06836F6E46EE7EC464F452BFE7442 /* EggDeviceExt-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EggDeviceExt-dummy.m"; sourceTree = "<group>"; };
-		18355F10130B042B7E6ADA0F850C4CDB /* EggCustomDialog-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EggCustomDialog-umbrella.h"; sourceTree = "<group>"; };
 		296864CE5E101A93B276FC53D5887E2C /* EggDeviceExt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EggDeviceExt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FF2855E1E3BBAD9774285C71745BA20 /* Pods-EggCustomDialog_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EggCustomDialog_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		3A0512F945E17027BF2852F8586024CC /* EggDeviceExt-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EggDeviceExt-umbrella.h"; sourceTree = "<group>"; };
@@ -75,42 +70,47 @@
 		3DD1988C059D912E42578F78F6D561BE /* Pods-EggCustomDialog_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EggCustomDialog_Example-dummy.m"; sourceTree = "<group>"; };
 		42C00EF946AEC0140BFEB6955CC95F03 /* Pods-EggCustomDialog_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EggCustomDialog_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		43FCB38140A6E47479DD4A57ED543580 /* Pods-EggCustomDialog_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EggCustomDialog_Tests-umbrella.h"; sourceTree = "<group>"; };
-		482AB788E6D1CC5845594AA82C475DDB /* EggCustomDialog.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = EggCustomDialog.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		4C2AF0CED21A4FB606FEE5185AFF6B7A /* EggCustomDialogViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EggCustomDialogViewController.swift; path = EggCustomDialog/Classes/EggCustomDialogViewController.swift; sourceTree = "<group>"; };
 		4D0142C7B25B0A5D8ED0A82F674073B2 /* Pods-EggCustomDialog_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EggCustomDialog_Example-Info.plist"; sourceTree = "<group>"; };
 		4D4EB3230C073645C5B2858236540B7A /* Pods-EggCustomDialog_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EggCustomDialog_Example.modulemap"; sourceTree = "<group>"; };
-		51BD2D1182173D485FAB5A2DA4DDA12B /* EggCustomDialog-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EggCustomDialog-dummy.m"; sourceTree = "<group>"; };
-		5910983DB7DFEE0F0E2575AFD75309AA /* EggCustomDialog-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EggCustomDialog-prefix.pch"; sourceTree = "<group>"; };
+		53E3ECEFBFCF422AF62215AA966F5B27 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		54D79BCF8E85478ACDA915803C2E8CBF /* EggCustomDialog-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EggCustomDialog-dummy.m"; sourceTree = "<group>"; };
 		5B72D7075CF75CA546A93CDB9998DF5A /* Pods-EggCustomDialog_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EggCustomDialog_Tests-Info.plist"; sourceTree = "<group>"; };
-		5D146AB84759246249A1EBEDDAB1FFE2 /* EggCustomDialog-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "EggCustomDialog-Info.plist"; sourceTree = "<group>"; };
+		7584D28A6E4C4951835631B0518BD9BC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		7CD95ACB2766C09974BFAD1922D6842F /* EggCustomDialog-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EggCustomDialog-umbrella.h"; sourceTree = "<group>"; };
 		840F9AA5C25837F88A9ECA1533DA00BC /* Pods-EggCustomDialog_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EggCustomDialog_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		8B3C0B102E06B1A9E5210ED51581E133 /* EggDeviceExt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EggDeviceExt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8E6E3A065B08522FA5079C1268EF994F /* EggCustomDialog.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = EggCustomDialog.modulemap; sourceTree = "<group>"; };
 		909CC68DED89A5FA817363F94EB649E4 /* Pods_EggCustomDialog_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EggCustomDialog_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		92FCA4821EDA0EFF510995414D44DA2A /* Pods-EggCustomDialog_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EggCustomDialog_Example-umbrella.h"; sourceTree = "<group>"; };
 		97CBA7BF6168F96A7009E7616F3DA417 /* EggDeviceExt-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "EggDeviceExt-Info.plist"; sourceTree = "<group>"; };
 		999742EFD126452A93F9351A54705E08 /* Pods_EggCustomDialog_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EggCustomDialog_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B20D49A63C659AC786F6E53A9AB6632 /* Pods-EggCustomDialog_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EggCustomDialog_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9C98C5B1F78FDAF7481E37768468CE48 /* EggCustomDialogViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = EggCustomDialogViewController.xib; path = EggCustomDialog/Classes/EggCustomDialogViewController.xib; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A7E6D6740E0056535B1A3EFE76236C10 /* Pods-EggCustomDialog_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EggCustomDialog_Example.release.xcconfig"; sourceTree = "<group>"; };
 		A98C22C639B7DF8B607B283C6096A17B /* Pods-EggCustomDialog_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EggCustomDialog_Tests-dummy.m"; sourceTree = "<group>"; };
+		B3924BD6656928F1DB2D33BC4E8C695B /* EggCustomDialog-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "EggCustomDialog-Info.plist"; sourceTree = "<group>"; };
 		B4D0452E1360D83BB90AA60A35E4C166 /* EggDeviceExt.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = EggDeviceExt.modulemap; sourceTree = "<group>"; };
 		B56A5C0BDFD49D286E5171371D31499B /* Pods-EggCustomDialog_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EggCustomDialog_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		C20687D36E8D102FAF1BEFAF84C510F9 /* EggCustomDialog.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = EggCustomDialog.modulemap; sourceTree = "<group>"; };
 		CAC1A9D40EE84035DB07FEA9401A7A93 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		CCB2A99E549CFCCAC4AAB6AE39209CA2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		CD51229EB3C866F2A551A833E11B364D /* EggCustomDialogViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EggCustomDialogViewController.swift; path = EggCustomDialog/Classes/EggCustomDialogViewController.swift; sourceTree = "<group>"; };
 		CFDB256BCD8DC7D55876FD7FB068B554 /* EggCustomDialog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EggCustomDialog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE1EC3C5FB66C3E28AD0A5FBC1548562 /* EggCustomDialog-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EggCustomDialog-prefix.pch"; sourceTree = "<group>"; };
+		E369D4E9EF66212228633452866261F0 /* EggCustomDialog.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = EggCustomDialog.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		E56C6CA52C20EDE178DF81F299592558 /* EggDeviceExt.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EggDeviceExt.xcconfig; sourceTree = "<group>"; };
 		EC56A79EA78888EDC814F918670B2DB8 /* Pods-EggCustomDialog_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EggCustomDialog_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		F6DA7C3C0DC5EC0D153BD802CA3F2079 /* EggCustomDialog.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EggCustomDialog.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3A3E5A34203ED6E391C77EF040390D6F /* Frameworks */ = {
+		3415A54D4ED36EB982AC77EF99307055 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6CD74B6141149D2DD931F645BD84C58D /* EggDeviceExt.framework in Frameworks */,
-				1C3505E119A816C6DF71F70E19614FD4 /* Foundation.framework in Frameworks */,
-				45644EA6F22CAAAADA53DFFD7ACE500E /* UIKit.framework in Frameworks */,
+				14172ED7C7E0A901B98D14018479FBD3 /* EggDeviceExt.framework in Frameworks */,
+				6441350EAF5A36DBE1AB1FB9931F0865 /* Foundation.framework in Frameworks */,
+				A66482091025E17B92FD3B17B2CF5C62 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,11 +130,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CB19D37894FDD118061153BCA2648AE3 /* Frameworks */ = {
+		CE31F69E5DE7C15B27C7C812AB825AE8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84E695F5B0FD2BF4C33C1A7453C25EDE /* Foundation.framework in Frameworks */,
+				8B0146C3007CAF84474357A7F38D7DC5 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,6 +150,32 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		1CB857F94D53676B578342FC84A304C9 /* EggCustomDialog */ = {
+			isa = PBXGroup;
+			children = (
+				4C2AF0CED21A4FB606FEE5185AFF6B7A /* EggCustomDialogViewController.swift */,
+				9C98C5B1F78FDAF7481E37768468CE48 /* EggCustomDialogViewController.xib */,
+				73CDAA1E4F329A77C291715C85460C73 /* Pod */,
+				20533AB6F7A24AA10F893E063A3D0D6D /* Support Files */,
+			);
+			name = EggCustomDialog;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		20533AB6F7A24AA10F893E063A3D0D6D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C20687D36E8D102FAF1BEFAF84C510F9 /* EggCustomDialog.modulemap */,
+				F6DA7C3C0DC5EC0D153BD802CA3F2079 /* EggCustomDialog.xcconfig */,
+				54D79BCF8E85478ACDA915803C2E8CBF /* EggCustomDialog-dummy.m */,
+				B3924BD6656928F1DB2D33BC4E8C695B /* EggCustomDialog-Info.plist */,
+				DE1EC3C5FB66C3E28AD0A5FBC1548562 /* EggCustomDialog-prefix.pch */,
+				7CD95ACB2766C09974BFAD1922D6842F /* EggCustomDialog-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/EggCustomDialog";
+			sourceTree = "<group>";
+		};
 		211AC5376D3CFA8A7BC89041CF8FECB8 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -157,6 +183,14 @@
 				CAC1A9D40EE84035DB07FEA9401A7A93 /* UIKit.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		23F7F0F98AD1A7065B858B960207AB13 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1CB857F94D53676B578342FC84A304C9 /* EggCustomDialog */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		33E95A35AF8DA856D9051992CCD68C51 /* Pods-EggCustomDialog_Tests */ = {
@@ -175,28 +209,14 @@
 			path = "Target Support Files/Pods-EggCustomDialog_Tests";
 			sourceTree = "<group>";
 		};
-		68EBFE19D18434AF76A92A528808D152 /* Pod */ = {
+		73CDAA1E4F329A77C291715C85460C73 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				482AB788E6D1CC5845594AA82C475DDB /* EggCustomDialog.podspec */,
-				066EE511D7B9A83A2FD1E1624FB7B9BD /* LICENSE */,
-				04CF055D98F7258027ABF32E7398465F /* README.md */,
+				E369D4E9EF66212228633452866261F0 /* EggCustomDialog.podspec */,
+				53E3ECEFBFCF422AF62215AA966F5B27 /* LICENSE */,
+				7584D28A6E4C4951835631B0518BD9BC /* README.md */,
 			);
 			name = Pod;
-			sourceTree = "<group>";
-		};
-		978B48E2D67C35E4853EF21EC2DE874B /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				8E6E3A065B08522FA5079C1268EF994F /* EggCustomDialog.modulemap */,
-				060BD9851528417F946B49FDD9C55C95 /* EggCustomDialog.xcconfig */,
-				51BD2D1182173D485FAB5A2DA4DDA12B /* EggCustomDialog-dummy.m */,
-				5D146AB84759246249A1EBEDDAB1FFE2 /* EggCustomDialog-Info.plist */,
-				5910983DB7DFEE0F0E2575AFD75309AA /* EggCustomDialog-prefix.pch */,
-				18355F10130B042B7E6ADA0F850C4CDB /* EggCustomDialog-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/EggCustomDialog";
 			sourceTree = "<group>";
 		};
 		9FEAE3A81195159C1F7DFE792F1D4A4E /* Pods-EggCustomDialog_Example */ = {
@@ -214,14 +234,6 @@
 			);
 			name = "Pods-EggCustomDialog_Example";
 			path = "Target Support Files/Pods-EggCustomDialog_Example";
-			sourceTree = "<group>";
-		};
-		A1A4866E658A89E51F2709A41BC09039 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				F92AC6E9FD060FE707B5B9604081310C /* EggCustomDialog */,
-			);
-			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		A3A1FDFA763D61F5FF7DCC3E9E270C45 /* Pods */ = {
@@ -261,7 +273,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				A1A4866E658A89E51F2709A41BC09039 /* Development Pods */,
+				23F7F0F98AD1A7065B858B960207AB13 /* Development Pods */,
 				0DAFDD547F7FC6C555D8061E9D56C6C1 /* Frameworks */,
 				A3A1FDFA763D61F5FF7DCC3E9E270C45 /* Pods */,
 				CA472B0F07EB2D092F64F97681BFAEEA /* Products */,
@@ -287,34 +299,22 @@
 			path = EggDeviceExt;
 			sourceTree = "<group>";
 		};
-		F92AC6E9FD060FE707B5B9604081310C /* EggCustomDialog */ = {
-			isa = PBXGroup;
-			children = (
-				CD51229EB3C866F2A551A833E11B364D /* EggCustomDialogViewController.swift */,
-				06E5285C1CB6C381ED5685058A043812 /* EggCustomDialogViewController.xib */,
-				68EBFE19D18434AF76A92A528808D152 /* Pod */,
-				978B48E2D67C35E4853EF21EC2DE874B /* Support Files */,
-			);
-			name = EggCustomDialog;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		036CED63BDB705DFD80170BCE15F2C43 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5A6804F6D6D20EA64C827958B4F47AE1 /* EggCustomDialog-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		1C77D879211C3FB56116DEA28BBD0F99 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				1D10D94791313F97064848EFB3253280 /* Pods-EggCustomDialog_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36C8A6D93582C128CC8633802AF3B125 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6BD49D3215F6DF0C2118D53E2EE343D /* EggDeviceExt-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,11 +326,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A39B8EC26C964078C939926562033ABB /* Headers */ = {
+		C4C7A591DB9F4912F868C84BA25DF097 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				33A2266DC635D832BA266816454799C2 /* EggDeviceExt-umbrella.h in Headers */,
+				783C6491F16504C511A65427907D0B8E /* EggCustomDialog-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,12 +358,12 @@
 		};
 		8FE3EE38041AC135CC803510C4AA9DC5 /* EggDeviceExt */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3BD72CD2C383F36D07499C5C8346C415 /* Build configuration list for PBXNativeTarget "EggDeviceExt" */;
+			buildConfigurationList = EC505DCC3B5F2A0D51910108DFABE506 /* Build configuration list for PBXNativeTarget "EggDeviceExt" */;
 			buildPhases = (
-				A39B8EC26C964078C939926562033ABB /* Headers */,
-				CCC7272E3149E4BD703285095917712C /* Sources */,
-				CB19D37894FDD118061153BCA2648AE3 /* Frameworks */,
-				93E77BBABE73B457B455022EFF288759 /* Resources */,
+				36C8A6D93582C128CC8633802AF3B125 /* Headers */,
+				59E1AD966A6E655516AD1C6A7E9DB248 /* Sources */,
+				CE31F69E5DE7C15B27C7C812AB825AE8 /* Frameworks */,
+				DD9F20AF414C4B3775402F36D5A10E8C /* Resources */,
 			);
 			buildRules = (
 			);
@@ -376,17 +376,17 @@
 		};
 		E3E77F5F85BC77DFFEA72396454E7075 /* EggCustomDialog */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 75CCCB1505FE446279A07BB628A1AEEB /* Build configuration list for PBXNativeTarget "EggCustomDialog" */;
+			buildConfigurationList = 711A47DCC470E91F1B59DE22E40544FB /* Build configuration list for PBXNativeTarget "EggCustomDialog" */;
 			buildPhases = (
-				036CED63BDB705DFD80170BCE15F2C43 /* Headers */,
-				CF198FC36967C2F69A96289A63C47FF3 /* Sources */,
-				3A3E5A34203ED6E391C77EF040390D6F /* Frameworks */,
-				E87E411A4E59C30EE4EF6F566B87BE31 /* Resources */,
+				C4C7A591DB9F4912F868C84BA25DF097 /* Headers */,
+				5C694B6AA7066DD91EE56AFE81E75025 /* Sources */,
+				3415A54D4ED36EB982AC77EF99307055 /* Frameworks */,
+				6E7BD4F92E03F042778CB62EE6FBED7C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				68E9EC7F884598967F16B56A8258F788 /* PBXTargetDependency */,
+				C2F0ED963047BD08924682C8CBCBF241 /* PBXTargetDependency */,
 			);
 			name = EggCustomDialog;
 			productName = EggCustomDialog;
@@ -457,14 +457,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		93E77BBABE73B457B455022EFF288759 /* Resources */ = {
+		6E7BD4F92E03F042778CB62EE6FBED7C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E87E411A4E59C30EE4EF6F566B87BE31 /* Resources */ = {
+		DD9F20AF414C4B3775402F36D5A10E8C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -482,30 +482,30 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		59E1AD966A6E655516AD1C6A7E9DB248 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1C7515A3F8D520A2F9259988B19A5AC /* EggDeviceExt-dummy.m in Sources */,
+				254FCA5EA8B96E1FB12523E324B4D8D4 /* UIDeviceExt.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C694B6AA7066DD91EE56AFE81E75025 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A941E62F08B5070C06C588AB41B0173 /* EggCustomDialog-dummy.m in Sources */,
+				4DD9CC4C95EDA0F76293D05283A1577B /* EggCustomDialogViewController.swift in Sources */,
+				EA19A3DEA5FD0CE025C0D24A939E1F46 /* EggCustomDialogViewController.xib in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A0A6F674C70812B4EF0370C433A4BCB8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				1E2987FE4FD3DD33488ADDDEA3585496 /* Pods-EggCustomDialog_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CCC7272E3149E4BD703285095917712C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A403B20756386D134F06A01D3688368A /* EggDeviceExt-dummy.m in Sources */,
-				B5C999F2BCF84170212C286B7961BEB4 /* UIDeviceExt.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CF198FC36967C2F69A96289A63C47FF3 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AAB918FB0EA51CDFF476E9D23DAC8938 /* EggCustomDialog-dummy.m in Sources */,
-				ECC687AD424DE511D87D314097A30313 /* EggCustomDialogViewController.swift in Sources */,
-				2ACDDEE3A8587218318CEDC314D71FB9 /* EggCustomDialogViewController.xib in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -524,53 +524,21 @@
 			target = E3E77F5F85BC77DFFEA72396454E7075 /* EggCustomDialog */;
 			targetProxy = 476A28D0B80E1CEAA99062DA9BB914E2 /* PBXContainerItemProxy */;
 		};
-		68E9EC7F884598967F16B56A8258F788 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = EggDeviceExt;
-			target = 8FE3EE38041AC135CC803510C4AA9DC5 /* EggDeviceExt */;
-			targetProxy = E43B50EFDB5313AA694C652D8852E482 /* PBXContainerItemProxy */;
-		};
 		BEF98DB4BD87620E404C2304505DAC08 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-EggCustomDialog_Example";
 			target = EB79ABD6E95E44EBB851EB283C790B77 /* Pods-EggCustomDialog_Example */;
 			targetProxy = 27395203624F657AC8C7E005CCCAB4DD /* PBXContainerItemProxy */;
 		};
+		C2F0ED963047BD08924682C8CBCBF241 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = EggDeviceExt;
+			target = 8FE3EE38041AC135CC803510C4AA9DC5 /* EggDeviceExt */;
+			targetProxy = CCB533E3D1547DE3123EBC65A2AA81E2 /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		171AFA16F265793428C9B12C362C0454 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E56C6CA52C20EDE178DF81F299592558 /* EggDeviceExt.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/EggDeviceExt/EggDeviceExt-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/EggDeviceExt/EggDeviceExt-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/EggDeviceExt/EggDeviceExt.modulemap";
-				PRODUCT_MODULE_NAME = EggDeviceExt;
-				PRODUCT_NAME = EggDeviceExt;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		196DFA3E4A09A28224918543529A1885 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -635,9 +603,9 @@
 			};
 			name = Debug;
 		};
-		332C7AA7C65A687A0D448DC0C8BC4173 /* Release */ = {
+		321058CCD7DCB55484A9FD3D4F589FCA /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 060BD9851528417F946B49FDD9C55C95 /* EggCustomDialog.xcconfig */;
+			baseConfigurationReference = F6DA7C3C0DC5EC0D153BD802CA3F2079 /* EggCustomDialog.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -654,19 +622,20 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MARKETING_VERSION = 0.1.3;
 				MODULEMAP_FILE = "Target Support Files/EggCustomDialog/EggCustomDialog.modulemap";
 				PRODUCT_MODULE_NAME = EggCustomDialog;
 				PRODUCT_NAME = EggCustomDialog;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		4EC178B3675B31EF6D4CFB7609D8D2F4 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -738,9 +707,41 @@
 			};
 			name = Release;
 		};
-		8B370F09A6C21D62A0E7951064EB4E64 /* Debug */ = {
+		6445AEF13562259A13FB170C3EEA166C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 060BD9851528417F946B49FDD9C55C95 /* EggCustomDialog.xcconfig */;
+			baseConfigurationReference = E56C6CA52C20EDE178DF81F299592558 /* EggDeviceExt.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/EggDeviceExt/EggDeviceExt-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EggDeviceExt/EggDeviceExt-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/EggDeviceExt/EggDeviceExt.modulemap";
+				PRODUCT_MODULE_NAME = EggDeviceExt;
+				PRODUCT_NAME = EggDeviceExt;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		707D19BE0722CFFDB0B50474EF300451 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6DA7C3C0DC5EC0D153BD802CA3F2079 /* EggCustomDialog.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -757,20 +758,23 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MARKETING_VERSION = 0.1.3;
 				MODULEMAP_FILE = "Target Support Files/EggCustomDialog/EggCustomDialog.modulemap";
 				PRODUCT_MODULE_NAME = EggCustomDialog;
 				PRODUCT_NAME = EggCustomDialog;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		9AD8CE4DCE1BF33C6DFC38E3175D0556 /* Release */ = {
+		75BC75D94332064844AEE4E850073A7C /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E56C6CA52C20EDE178DF81F299592558 /* EggDeviceExt.xcconfig */;
 			buildSettings = {
@@ -933,15 +937,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3BD72CD2C383F36D07499C5C8346C415 /* Build configuration list for PBXNativeTarget "EggDeviceExt" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				171AFA16F265793428C9B12C362C0454 /* Debug */,
-				9AD8CE4DCE1BF33C6DFC38E3175D0556 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -960,11 +955,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		75CCCB1505FE446279A07BB628A1AEEB /* Build configuration list for PBXNativeTarget "EggCustomDialog" */ = {
+		711A47DCC470E91F1B59DE22E40544FB /* Build configuration list for PBXNativeTarget "EggCustomDialog" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8B370F09A6C21D62A0E7951064EB4E64 /* Debug */,
-				332C7AA7C65A687A0D448DC0C8BC4173 /* Release */,
+				321058CCD7DCB55484A9FD3D4F589FCA /* Debug */,
+				707D19BE0722CFFDB0B50474EF300451 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -974,6 +969,15 @@
 			buildConfigurations = (
 				B721462ABFAAA226478BCB15DC5452D5 /* Debug */,
 				5EDC79708CFC01A557C441623D7C54BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC505DCC3B5F2A0D51910108DFABE506 /* Build configuration list for PBXNativeTarget "EggDeviceExt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6445AEF13562259A13FB170C3EEA166C /* Debug */,
+				75BC75D94332064844AEE4E850073A7C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
