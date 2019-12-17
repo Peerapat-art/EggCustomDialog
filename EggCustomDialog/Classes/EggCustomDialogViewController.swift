@@ -27,13 +27,13 @@ public extension EggCustomDialogDelegate {
 public class EggCustomDialogViewController: UIViewController {
     
     // MARK: - IBOutlets
-    @IBOutlet weak public var viewBackGround: UIView! {
+    @IBOutlet weak private var viewBackGround: UIView! {
         didSet {
             self.viewBackGround.backgroundColor = UIColor.black.withAlphaComponent(0.7)
         }
     }
     
-    @IBOutlet weak public var viewDialog: UIView! {
+    @IBOutlet weak private var viewDialog: UIView! {
         didSet {
             self.viewDialog.backgroundColor = .white
             self.viewDialog.layer.cornerRadius = 10
@@ -41,35 +41,36 @@ public class EggCustomDialogViewController: UIViewController {
         }
     }
     
-    @IBOutlet weak public var viewDialogWidthConstraint: NSLayoutConstraint! {
+    @IBOutlet weak private var viewDialogWidthConstraint: NSLayoutConstraint! {
         didSet {
             self.viewDialogWidthConstraint.constant = UIScreen.main.bounds.width * (UIDevice.iPad ? 0.45 : 0.75)
         }
     }
     
-    @IBOutlet weak public var viewImage: ScaledHeightImageView! {
+    @IBOutlet weak private var viewImage: ScaledHeightImageView! {
         didSet {
             self.viewImage.contentMode = .scaleAspectFill
             self.viewImage.clipsToBounds = true
         }
     }
     
-    @IBOutlet weak public var labelTitle: UILabel! {
+    @IBOutlet weak private var labelTitle: UILabel! {
         didSet {
             self.labelTitle.textColor = .black
             self.labelTitle.numberOfLines = 2
         }
     }
     
-    @IBOutlet weak public var labelMessage: UILabel! {
+    @IBOutlet weak private var labelMessage: UILabel! {
         didSet {
             self.labelMessage.textColor = .black
             self.labelMessage.numberOfLines = 5
         }
     }
     
-    @IBOutlet weak public var buttonLeft: UIButton! {
+    @IBOutlet weak private var buttonLeft: UIButton! {
         didSet {
+            self.buttonLeft.setTitle("", for: .normal)
             self.buttonLeft.titleLabel?.textColor = .black
             self.buttonLeft.tintColor = .black
             self.buttonLeft.backgroundColor = .lightGray
@@ -77,8 +78,9 @@ public class EggCustomDialogViewController: UIViewController {
         }
     }
     
-    @IBOutlet weak public var buttonRight: UIButton! {
+    @IBOutlet weak private var buttonRight: UIButton! {
         didSet {
+            self.buttonRight.setTitle("", for: .normal)
             self.buttonRight.titleLabel?.textColor = .black
             self.buttonRight.tintColor = .black
             self.buttonRight.backgroundColor = .lightGray
@@ -86,11 +88,10 @@ public class EggCustomDialogViewController: UIViewController {
         }
     }
     
-    @IBOutlet weak var imageLeadingConstraint: NSLayoutConstraint!
+    @IBOutlet weak private var imageLeadingConstraint: NSLayoutConstraint!
     
-    @IBOutlet weak var imageTrillingConstraint: NSLayoutConstraint!
+    @IBOutlet weak private var imageTrillingConstraint: NSLayoutConstraint!
     
-    @IBOutlet weak var imageHeightConstraint: NSLayoutConstraint!
     
     public var content = CustomDialogTheme(sTitle: "", sMessage: "")
     public weak var delegate: EggCustomDialogDelegate?
@@ -99,21 +100,20 @@ public class EggCustomDialogViewController: UIViewController {
     override public func viewDidLoad() {
         super.viewDidLoad()
         self.view.backgroundColor = .clear
-        self.setContent(content: self.content)
     }
     
     // MARK: - IBActions
-    @IBAction public func tapBtnLeft(_ sender: Any) {
+    @IBAction private func tapBtnLeft(_ sender: Any) {
         self.delegate?.didTapLeftButton()
         self.dismiss(animated: true, completion: nil)
     }
     
-    @IBAction public func tapBtnRight(_ sender: Any) {
-        self.dismiss(animated: true, completion: nil)
+    @IBAction private func tapBtnRight(_ sender: Any) {
         self.delegate?.didTapRightButton()
+        self.dismiss(animated: true, completion: nil)
     }
     
-    // MARK: - Public Methods
+    // MARK: - Public Enum
     public enum StyleDialog {
         case withImageSmall
         case withImageLarge
@@ -131,6 +131,7 @@ public class EggCustomDialogViewController: UIViewController {
         case titleMessage
     }
     
+    // MARK: - Public Struct
     public struct CustomDialogTheme {
         let sTitle: String
         let fontTitle: UIFont
@@ -197,7 +198,7 @@ public class EggCustomDialogViewController: UIViewController {
         }
     }
     
-    
+    // MARK: - Public func
     public func setContent(content: CustomDialogTheme) {
         
         self.viewImage.isHidden = content.styleDialog == .noImage
@@ -217,15 +218,16 @@ public class EggCustomDialogViewController: UIViewController {
         
         switch content.styleDialog {
         case .noImage:
-            self.imageHeightConstraint.constant = 0
+            self.viewImage.isShowImage = false
         case .withImageSmall:
             self.imageLeadingConstraint.constant = 100
             self.imageTrillingConstraint.constant = 100
-            self.imageHeightConstraint.constant = self.viewImage.bounds.height
+            self.viewImage.isShowImage = true
         case .withImageLarge:
             self.imageLeadingConstraint.constant = 16
             self.imageTrillingConstraint.constant = 16
-            self.imageHeightConstraint.constant = self.viewImage.bounds.height
+            self.viewImage.isShowImage = true
+            
         }
         
         self.viewImage.image = content.img
@@ -258,16 +260,15 @@ public class EggCustomDialogViewController: UIViewController {
         self.modalTransitionStyle = UIModalTransitionStyle.crossDissolve
         
         DispatchQueue.main.async {
-            UIApplication.shared.keyWindow?.rootViewController?.present(self, animated: true, completion: {
-                UIView.transition(with: self.viewDialog, duration: 0.1, options: .curveEaseInOut, animations: {
-                    self.viewDialog.isHidden = false
-                })
-            })
+            UIApplication.shared.keyWindow?.rootViewController?.present(self, animated: true, completion: nil)
+            self.setContent(content: self.content)
+            self.viewDialog.isHidden = false
         }
     }
 }
 
 public class ScaledHeightImageView: UIImageView {
+    var isShowImage = true
     
     public override var intrinsicContentSize: CGSize {
         previousLayoutWidth = bounds.width
@@ -276,10 +277,17 @@ public class ScaledHeightImageView: UIImageView {
             return super.intrinsicContentSize
         }
         
-        return CGSize(
-            width: 90,
-            height: bounds.width / image.size.aspectRatio
-        )
+        if self.isShowImage {
+            return CGSize(
+                width: 90,
+                height: bounds.width / image.size.aspectRatio
+            )
+        } else {
+            return CGSize(
+                width: 0,
+                height: 0
+            )
+        }
     }
     
     public override func layoutSubviews() {

@@ -12,7 +12,6 @@
             <connections>
                 <outlet property="buttonLeft" destination="e3u-pT-O8m" id="ghi-sE-333"/>
                 <outlet property="buttonRight" destination="s5h-Nh-1cs" id="uIB-J3-jYh"/>
-                <outlet property="imageHeightConstraint" destination="CN7-2M-bfK" id="acr-dJ-AM8"/>
                 <outlet property="imageLeadingConstraint" destination="4H2-tm-9ve" id="XK7-8r-F7w"/>
                 <outlet property="imageTrillingConstraint" destination="e1g-O1-wec" id="PVK-HD-H4k"/>
                 <outlet property="labelMessage" destination="7fE-hc-3jb" id="jt3-up-Eqm"/>
@@ -34,17 +33,17 @@
                     <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xgK-tP-nek">
-                    <rect key="frame" x="107" y="376.5" width="200" height="153"/>
+                    <rect key="frame" x="107" y="331.5" width="200" height="243"/>
                     <subviews>
-                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1" translatesAutoresizingMaskIntoConstraints="NO" id="e6S-b0-LdC" customClass="ScaledHeightImageView" customModule="EggCustomDialog" customModuleProvider="target">
-                            <rect key="frame" x="16" y="16" width="168" height="0.0"/>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="2" translatesAutoresizingMaskIntoConstraints="NO" id="e6S-b0-LdC" customClass="ScaledHeightImageView" customModule="EggCustomDialog" customModuleProvider="target">
+                            <rect key="frame" x="16" y="16" width="168" height="90"/>
                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <constraints>
-                                <constraint firstAttribute="height" id="CN7-2M-bfK"/>
+                                <constraint firstAttribute="height" constant="90" placeholder="YES" id="TYd-9b-YbY"/>
                             </constraints>
                         </imageView>
                         <stackView opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="tBc-SP-8ni">
-                            <rect key="frame" x="20" y="32" width="160" height="101"/>
+                            <rect key="frame" x="20" y="122" width="160" height="101"/>
                             <subviews>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wcV-Fz-BPS">
                                     <rect key="frame" x="0.0" y="0.0" width="160" height="20.5"/>
@@ -61,14 +60,14 @@
                                 <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="G4e-C7-mOD">
                                     <rect key="frame" x="0.0" y="57" width="160" height="44"/>
                                     <subviews>
-                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e3u-pT-O8m">
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e3u-pT-O8m">
                                             <rect key="frame" x="0.0" y="0.0" width="72" height="44"/>
                                             <state key="normal" title="Button"/>
                                             <connections>
                                                 <action selector="tapBtnLeft:" destination="-1" eventType="touchUpInside" id="GPy-mY-G0Z"/>
                                             </connections>
                                         </button>
-                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s5h-Nh-1cs">
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s5h-Nh-1cs">
                                             <rect key="frame" x="88" y="0.0" width="72" height="44"/>
                                             <state key="normal" title="Button"/>
                                             <connections>
@@ -114,6 +113,6 @@
         </view>
     </objects>
     <resources>
-        <image name="1" width="1000" height="563"/>
+        <image name="2" width="720" height="479"/>
     </resources>
 </document>

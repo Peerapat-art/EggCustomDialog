@@ -21,6 +21,7 @@ Pod::Spec.new do |s|
     s.ios.deployment_target = '10.0'
     
     s.source_files = 'EggCustomDialog/Classes/**/*'
+      
     s.frameworks  = "Foundation", "UIKit"
     
     s.dependency 'EggDeviceExt'
