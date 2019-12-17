@@ -8,15 +8,15 @@
 
 Pod::Spec.new do |s|
     s.name             = 'EggCustomDialog'
-    s.version          = '0.1.3'
+    s.version          = '0.1.1'
     s.swift_version    = '5.0'
     s.summary          = 'EggDital Custom Dialog'
     s.description      = "Create Custom Dialog for using in project"
     
-    s.homepage         = 'https://github.com/Peerapat-art/EggCustomDialog'
+    s.homepage         = 'https://bitbucket.org/eggapplication/eggdigitalcustomdialog'
     s.license          = { :type => 'MIT', :file => 'LICENSE' }
     s.author           = { 'Peerapat.Pro' => 'peerapat.pro@ascendcorp.com' }
-    s.source           = { :git => 'https://github.com/Peerapat-art/EggDigitalCustomDialog.git', :tag => s.version.to_s }
+    s.source           = { :git => 'https://bitbucket.org/eggapplication/eggdigitalcustomdialog.git', :tag => s.version.to_s }
     
     s.ios.deployment_target = '10.0'
     
@@ -26,3 +26,4 @@ Pod::Spec.new do |s|
     
     s.dependency 'EggDeviceExt'
 end
+
